@@ -17,6 +17,12 @@
   <dependencies>
     <dependency>
       <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.0.Final</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.netty</groupId>
       <artifactId>netty-example</artifactId>
       <version>4.1.0.Final</version>
     </dependency>
@@ -35,14 +41,14 @@
   </dependencies>
 
   <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-jar-plugin</artifactId>
-        <configuration>
-          <classifier>${os.detected.classifier}</classifier>
-        </configuration>
-      </plugin>
-    </plugins>
+    <!--<plugins>-->
+      <!--<plugin>-->
+        <!--<artifactId>maven-jar-plugin</artifactId>-->
+        <!--<configuration>-->
+          <!--<classifier>${os.detected.classifier}</classifier>-->
+        <!--</configuration>-->
+      <!--</plugin>-->
+    <!--</plugins>-->
   </build>
 
 
